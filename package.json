@@ -1,0 +1,15 @@
+{
+  "name": "local-mcp-server",
+  "version": "1.0.0",
+  "description": "Local MCP server with ping tool for POC testing",
+  "main": "mcp_server.py",
+  "scripts": {
+    "start": "python3 mcp_server.py",
+    "test": "python3 test_client.py"
+  },
+  "dependencies": {
+    "mcp": ">=1.0.0"
+  },
+  "author": "MCPPOC Team",
+  "license": "MIT"
+}
